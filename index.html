@@ -1,1 +1,77 @@
-<h1>hi im hear</h1>
+<html>
+
+<head>
+<style type='text/css'>	
+body{background-color:White;color:#FFF;font-family:Sans-serif,Helvertica;margin:0;padding:0;}
+a{color:gold;}
+div {width:90%;padding:2%;margin:5px auto;}
+div img{width:90%;border:4px solid #444;height:auto;}
+div h1,h2{color:Black;}
+	</style>
+
+		
+<title><?php 
+$name = str_replace("/","",$_SERVER['REQUEST_URI']);
+$var = rand(1,9);
+if($var == 1){echo "$name Here Is Your Crush";}
+if($var == 2){echo "$name Here Is Your Crush";}
+if($var == 3){echo "$name Here Is Your Crush";}
+if($var == 4){echo "$name Here Is Your Crush";}
+if($var == 5){echo "$name Here Is Your Crush";}
+if($var == 6){echo "$name Here Is Your Crush";}
+if($var == 7){echo "$name Here Is Your Crush";}
+if($var == 8){echo "$name Here Is Your Crush";}
+if($var == 9){echo "$name Here Is Your Crush";}
+
+
+?></title>
+	
+
+<meta property="og:description"        content="<?php
+if($var == 1){echo "Click Here For More";}
+if($var == 2){echo "Click Here For More";}
+if($var == 3){echo "Click Here For More"; }
+if($var == 4){echo "Click Here For More"; }
+if($var == 5){echo "Click Here For More"; }
+if($var == 6){echo "Click Here For More"; }
+if($var == 7){echo "Click Here For More"; }
+if($var == 8){echo "Click Here For More"; }
+if($var == 9){echo "Click Here For More"; }
+
+
+?>" />
+
+
+</head>
+<body>
+
+
+<?php
+if($var == 1){echo "<h1>1st Statement Here</h1></br>";}
+if($var == 2){echo "<h1>2nd Statement Here</h1></br>";}
+if($var == 3){echo "<h1>3rd Statement Here</h1></br>"; }
+if($var == 4){echo "<h1>4th Statement Here</h1></br>"; }
+if($var == 5){echo "<h1>5th Statement Here</h1></br>"; }
+if($var == 6){echo "<h1>6th Statement Here</h1></br>"; }
+if($var == 7){echo "<h1>7th Statement Here</h1></br>"; }
+if($var == 8){echo "<h1>8th Statement Here</h1></br>"; }
+if($var == 9){echo "<h1>8th Statement Here</h1></br>"; }
+
+
+ if($var == 1) {print '<img src="images/1.jpg" width="65%">';}
+ if($var == 2) {print '<img src="images/2.jpg" width="65%">';}
+ if($var == 3) {print '<img src="images/3.jpg" width="65%">';}
+ if($var == 4) {print '<img src="images/4.jpg" width="65%">';}
+ if($var == 5) {print '<img src="images/5.jpg" width="65%">';}
+ if($var == 6) {print '<img src="images/6.jpg" width="65%">';}
+ if($var == 7) {print '<img src="images/7.jpg" width="65%">';}
+ if($var == 8) {print '<img src="images/8.jpg" width="65%">';}
+ if($var == 9) {print '<img src="images/9.jpg" width="65%">';}
+
+
+
+?>
+
+</div>
+
+</html>
