@@ -23,7 +23,28 @@
     <meta content='id' name='geo.country'/>
     <meta content='1 days' name='revisit-after'/>
     <meta content='morocoo' name='geo.placename'/>
-<meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <p id="demo"></p>
+<script>
+Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+
+list =['https://a.pomf.cat/vnzwal.jpg','https://a.pomf.cat/lvotue.jpg','https://a.pomf.cat/ofcgds.jpg','https://a.pomf.cat/ifmpxh.jpg']
+var o = list.random()
+var x = document.getElementById("demo")
+    x.innerHTML = o
+//$('meta[property=og\\:image]').attr('content', o);
+
+
+var meta = document.createElement('meta');
+meta.setAttribute('property', 'og:image');
+meta.setAttribute('content', list.random());
+document.getElementsByTagName('head')[0].appendChild(meta);
+
+</script>
+
+
+    
 
 </head>
 ...
